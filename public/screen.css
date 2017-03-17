@@ -62,7 +62,7 @@ main .firstContainer {
 .firstContainer ul {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 10px 25px;
   margin: 0;
 }
 
@@ -72,21 +72,24 @@ li img {
 
 .secondContainer {
   background-color: hsla(0, 0%, 0%, 0.6);
-  padding: 20px;
+  padding: 30px;
   margin: 0;
 }
 
 .imgbox {
-  height: 50px;
+  height: 75px;
   min-width: (100% - 40px);
-  background-image: image("/images/react.png");
+  background-image: url("/images/react.png");
   background-size: cover;
+  background-position: center;
+  margin-bottom: 0;
+  border-radius: 5px;
 }
 
 h3 {
   background-color: #dedede;
   padding: 15px 15px 0 15px;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 p {
@@ -97,7 +100,16 @@ p {
 
 .thirdContainer {
   background-color: #0d1111;
-  padding: 20px;
+  padding: 30px;
+}
+
+.imgbox2 {
+  height: 75px;
+  min-width: (100% - 40px);
+  background-image: url("/images/code.png");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0;
 }
 
 .footLine1 {
