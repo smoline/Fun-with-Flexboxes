@@ -35,7 +35,7 @@ header .flexheader {
   border-radius: 5px;
 }
 
-.flexheader h1 h2 {
+.flexheader h1, h2 {
   padding: 0 20px;
 }
 
