@@ -1,5 +1,5 @@
 html {
-  background: url(images/space.png) no-repeat center center fixed;
+  background: url('images/space.png') no-repeat center center fixed;
   background-size: cover;
   text-size-adjust: 100%;
 }
@@ -80,7 +80,7 @@ li img {
 .imgbox {
   height: 75px;
   min-width: (100% - 40px);
-  background-image: url("/images/react.png");
+  background-image: url('images/react.png');
   background-size: cover;
   background-position: center;
   margin-bottom: 0;
@@ -141,7 +141,7 @@ p {
 .imgbox2 {
   height: 75px;
   min-width: (100% - 40px);
-  background-image: url("/images/code.png");
+  background-image: url('images/code.png');
   background-size: cover;
   background-position: center;
   margin-bottom: 0;
