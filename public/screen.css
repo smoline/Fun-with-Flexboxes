@@ -1,5 +1,5 @@
 html {
-  background: url('images/space.png') no-repeat center center fixed;
+  background: url(images/space.png) no-repeat center center fixed;
   background-size: cover;
   text-size-adjust: 100%;
 }
@@ -174,4 +174,8 @@ p {
   margin: 0;
   padding: 50px 0 30px;
   font-size: 14px;
+}
+
+@media (max-width: 736px) {
+
 }
