@@ -35,7 +35,7 @@ header .flexheader {
   border-radius: 5px;
 }
 
-.flexheader h1, h2 {
+.flexheader h1 h2 {
   padding: 0 20px;
 }
 
@@ -111,7 +111,7 @@ h3 span {
 
 p {
   background-color: #dedede;
-  padding: 5px 15px 15px 15px;
+  padding: 5px 15px 15px;
   margin-top: 0;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -125,7 +125,7 @@ p {
 }
 
 .bluebox h3 {
-  background-color: #6AABD4;
+  background-color: #6aabd4;
   color: white;
   text-align: center;
   font-size: 16px;
