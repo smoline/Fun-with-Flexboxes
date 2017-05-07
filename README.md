@@ -6,3 +6,7 @@
   * links to my blog posts
   * a link to my resume
   * links to all social media and github
+
+  Photo of the site:
+
+  ![My Portfolio](public/docs/Portfolio.png)
