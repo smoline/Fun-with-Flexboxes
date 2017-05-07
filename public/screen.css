@@ -9,53 +9,49 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-header .flexContainer {
-  display: flex;
-  align-items: center;
-  margin: 8em 0;
-}
-
 header {
+  background-color: hsla(0, 0%, 0%, 0.6);
+  top: 0;
+  left: 0;
+}
+
+header .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  min-height: 300px;
+  padding: 10px;
 }
 
-.flexContainer img {
-  border-radius: 5px;
-  margin-right: 10px;
+.nav1 {
+  border: none;
+  color: #dedede;
+  padding-left: 2em;
 }
 
-header .flexheader {
-  background-color: #d3d3d3;
-  margin-top: -150px;
-  opacity: 0.9;
-  border-radius: 5px;
+.nav2 {
+  display: flex;
 }
 
-.flexheader h1, h2 {
-  padding: 0 20px;
+ul a {
+  color: white;
+  text-decoration: none;
 }
 
-.flexheader h2 {
-  font-weight: lighter;
-  font-size: 16px;
+header ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex: 1;
+  margin: auto;
 }
 
-.flexheader i {
-  position: relative;
-  right: -20px;
-  top: 44px;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 25px 25px 0 0;
-  border-color: #d3d3d3 transparent transparent;
+header li {
+  padding-right: 2em;
 }
 
 main .firstContainer {
   background-color: hsla(0, 0%, 0%, 0.6);
+  margin-top: 30em;
 }
 
 .firstContainer ul {
@@ -80,7 +76,7 @@ main .firstContainer {
 .imgbox {
   height: 75px;
   min-width: (100% - 40px);
-  background-image: url('Images/react.png');
+  background-image: url('./Images/code5.jpg');
   background-size: cover;
   background-position: center;
   margin-bottom: 0;
@@ -154,7 +150,7 @@ p {
 .imgbox2 {
   height: 75px;
   min-width: (100% - 40px);
-  background-image: url('Images/code.png');
+  background-image: url('Images/code3.jpg');
   background-size: cover;
   background-position: center;
   margin-bottom: 0;
